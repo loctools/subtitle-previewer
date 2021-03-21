@@ -10,12 +10,13 @@ You can host it anywhere (on S3, or as a static Github page). Just publish the c
 
 Provided you have published the Subtitle Prevewer under `https://example.com/previewer` URL, you can run it as follows:
 
-    https://example.com/previewer/index.html#jsonp={JSONP_URL}[&hl={N}]
+    https://example.com/previewer/index.html#jsonp={JSONP_URL}[&hl={N}][&play]
 
 where
 
 - `JSONP_URL` is a URL of a subtitle file in a special format (see below), which can be hosted anywhere.
 - `hl={N}` is an optional parameter, where `N` is the index of a cue to highlight and navigate to.
+- `play` is an optional parameter, which instructs the highlighted cue to auto-play upon loading.
 
 # JSONP Subtitle Data Format
 
