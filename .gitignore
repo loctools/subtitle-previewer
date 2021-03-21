@@ -1,0 +1,4 @@
+rclone.local.conf
+~*
+.DS_Store
+.vscode

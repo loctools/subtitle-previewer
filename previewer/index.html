@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Subtitle Previewer</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/view.css" />
+        <link rel="icon" href="img/favicon.png" />
+        <meta name="viewport" content="user-scalable=no,width=640" />
+        <meta name="format-detection" content="telephone=no" />
+    </head>
+    <body>
+        <div id="videoContainer">
+            <video id="video" playsinline="playsinline"></video>
+        </div>
+        <div id="controls">
+            <span id="timeStamp">--:--.---</span>
+            <button id="playPause">&nbsp;</button>
+            <span id="videoLength">--:--.---</span>
+        </div>
+        <div id="scrollableListContainer">
+            <div id="scrollableList">
+                <div id="scrollableListHeader">Start of track</div>
+                <div id="scrollableListItems"></div>
+                <div id="scrollableListFooter">End of track</div>
+                <div id="videoPositionLine"></div>
+            </div>
+            <div id="scrollableListShadow"></div>
+        </div>
+    </body>
+    <script src="js/main.js"></script>
+    <script src="js/view.js"></script>
+    <script id="jsonp"></script>
+</html>
